@@ -12,3 +12,68 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.logo {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+
+.top-navbar {
+  border-bottom: 1px solid #000000;
+  padding-top: 15px;
+  min-height: 50px;
+  margin-bottom: 30px;
+}
+
+.top-navbar .right {
+  float: right;
+  width: 100px;
+  text-align: center;
+}
+
+.top-navbar .left {
+  float: left;
+}
+
+.btn {
+  border: 1px solid  #0ca6d4;
+  padding:5px;
+  margin-right: 5px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: #0ca6d4;
+  text-decoration: none;
+  font-style: bold;
+}
+
+.btn2 {
+  padding:5px;
+  margin-right: 5px;
+  background-color: #c2c2c2;
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: white;
+  background: #0ca6d4;
+  text-decoration: none;
+}
+
+.btn2:hover {
+  background: #0d88ad;
+}
+
+
+.search {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  line-height: 30px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 30%;
+}
+
+
