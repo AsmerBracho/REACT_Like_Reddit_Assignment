@@ -14,8 +14,9 @@ code {
 }
 
 .logo {
-  width: 150px;
-  margin-bottom: 10px;
+  float: left;
+  width: 200px;
+   
 }
 
 .container {
@@ -23,10 +24,11 @@ code {
   margin: auto;
 }
 
+
 .top-navbar {
   border-bottom: 1px solid #000000;
   padding-top: 15px;
-  min-height: 50px;
+  min-height: 80px;
   margin-bottom: 30px;
 }
 
@@ -43,6 +45,7 @@ code {
 .btn {
   border: 1px solid  #0ca6d4;
   padding:5px;
+  margin-top: 15px;
   margin-right: 5px;
   text-transform: uppercase;
   border-radius: 5px;
@@ -51,9 +54,15 @@ code {
   font-style: bold;
 }
 
+.btn:hover {
+  color: white;
+  background-color: #eaeef0; 
+}
+
 .btn2 {
   padding:5px;
   margin-right: 5px;
+  margin-top: 15px;
   background-color: #c2c2c2;
   text-transform: uppercase;
   border-radius: 5px;
@@ -66,14 +75,275 @@ code {
   background: #0d88ad;
 }
 
+.btn3 {
+  width: 100%;
+  padding:10px;
+  background-color: #c2c2c2;
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: white;
+  background: #0ca6d4;
+  text-decoration: none;
+}
+
 
 .search {
   border: 1px solid #000000;
   border-radius: 5px;
   line-height: 30px;
-  padding: 10px;
-  margin-bottom: 10px;
-  width: 30%;
+  padding: 9px;
+  margin-bottom: 20px;
+  width: 75%;
 }
 
+.list-view {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.list-view li {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* ------------- BOX FO LINK DETAILS -------------------*/
+
+
+.link-details {
+  border: 1px solid #000000;
+  margin-bottom: 20px;
+  width: 76%;
+  -webkit-box-shadow: 0px 4px 6px -3px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 4px 6px -3px rgba(0,0,0,1);
+  box-shadow: 0px 4px 6px -3px rgba(0,0,0,1);
+
+}
+
+.link-details .left {
+  background-color: #0ca6d4;
+  text-align: center;
+  border-right: 1px solid #000000;
+  padding: 10px;
+  width: 5%;
+}
+
+.link-details .right {
+  padding: 10px;
+}
+
+.link-details .right .audit {
+  text-decoration: none;
+
+}
+
+.link-details .right .title {
+  margin: 0px;
+  text-decoration: none;
+}
+
+.link-details .right .main_title {
+  text-decoration: none;
+}
+
+
+
+.link-details .right .comment-count {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.link-details .right .url {
+  color: #7c7c7c;
+}
+
+/* ------------- BOX FO LINK DETAILS -------------------*/
+
+.comment-details {
+  float: right;
+  border: 1px solid #000000;
+  margin-bottom: 10px;
+  width: 95%;
+  border-radius: 5px;
+}
+
+.comment-details .left {
+  text-align: center;
+  border-right: 1px solid #000000;
+  padding: 10px;
+  width: 5%;
+}
+
+.comment-details .right {
+  padding: 10px;
+}
+
+/* ------------- LOGIN CONTAINER  -------------------*/
+.login-container {
+  max-width: 50%;
+  margin: auto;
+  border: 1px solid #000000;
+  padding: 20px;
+  text-align: center;
+}
+
+.input-text {
+  border: 1px solid #000000;
+  line-height: 30px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 97.3%;
+}
+
+/* ------------- ALERT MESSAGES  -------------------*/
+
+.error-msg {
+  background-color: rgb(255, 177, 177);
+  border: 1px solid red;
+  color: red;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.error-msg2 {
+  background-color: rgb(255, 177, 177);
+  border: 1px solid red;
+  color: red;
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.success-msg {
+  background-color: rgb(193, 255, 193);
+  border: 1px solid green;
+  color: green;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.comment-login-first-msg {
+  width: 93.7%;
+  float: right;
+  background-color: rgb(177, 217, 255);
+  border: 1px solid rgb(0, 153, 255);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+/* ------------- COMMENTS  -------------------*/
+
+.input-text-comment {
+  width: 93.7%;
+  float: right;
+  border: 1px solid #000000;
+  line-height: 30px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-comment {
+  width: 95.4%;
+  float: right;
+  padding:10px;
+  background-color: #c2c2c2;
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: white;
+  background: #0ca6d4;
+  text-decoration: none;
+}
+
+.btn-comment:hover {
+  background: #0d88ad;
+}
+
+/* ------------- COMUNITY COMPONENT -------------------*/
+.comunity-details {
+  float: right;
+  border: 1px solid #000000;
+  margin-bottom: 10px;
+  width: 20%;
+  border-radius: 5px;
+}
+
+.comunity-details .left {
+  text-align: center;
+  border-right: 1px solid #000000;
+  padding: 10px;
+  width: 15%;
+}
+
+.comunity-details .right {
+  padding: 10px;
+}
+
+.comunity-logo {
+  float: left;
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+.comunity-left {
+  float: left;
+}
+
+.comunity-right {
+  float: right;
+  margin-right: 15px;
+}
+
+.btn-comunity {
+  margin-top: 30px;
+  width: 93.7%;
+  padding:10px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: white;
+  background: #0ca6d4;
+  text-decoration: none;
+}
+
+.btn-comunity:hover { 
+  background: #097a9c;
+}
+
+
+/* ------------- USER DETAILS AND PROFILE -------------------*/
+
+.container-user {
+  max-width: 100%;
+  margin: auto;
+}
+
+.profile {
+  padding: 10px;
+  float: right;
+  border: 1px solid #000000;
+  margin-bottom: 10px;
+  width: 20%;
+  border-radius: 5px;
+}
+
+.profile-picture{ 
+  margin-left: 30%;
+  width: 100px;
+}
+
+.profile-biography {
+  text-align: justify;
+
+}
+
+.vote-btn {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
 

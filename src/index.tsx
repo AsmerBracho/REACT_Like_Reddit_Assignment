@@ -1,23 +1,22 @@
+/**
+ * CCT College Dublin 
+ * Web Interaction Applications
+ * React - Assiggment 
+ * Author: Asmer Bracho 
+ * Student-Number: 2016328 
+ */
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import { Links } from './pages/links';
-import { Header } from './components/header/header';
+import { BrowserRouter } from 'react-router-dom';
+import App from './App'
 
 ReactDOM.render(
     // Our application will be surronded by the Router Component 
     <BrowserRouter> 
-        <div>
-            <Header /> 
-            <div className = "container">
-                <Switch> 
-                    <Route path="/" component={Links} />
-                </Switch>
-            </div>>
-    </div>
+        <App/>
     </BrowserRouter>,
     document.getElementById('root'));
 
